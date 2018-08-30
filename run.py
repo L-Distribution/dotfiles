@@ -63,5 +63,5 @@ for name, module in modules.items():
 	# subprocess.call([ name ])
 	print(module)
 
-	for platform_script in module["scripts"]["platform"]:
-		print(platform_script)
+        platform = module["scripts"]["platform"][inp_platform]
+        print(platformat)

@@ -1,1 +1,33 @@
-{}
+{
+	"name": "common",
+	"scripts": {
+		"platform": {
+			"physical": {
+				"run_common": false,
+				"scripts": "physical.sh"
+			},
+
+			"virtualbox": {
+				"run_common": false,
+				"scripts": "virtualbox.sh"
+			},
+
+			"arm": {
+				"run_common": false,
+				"scripts": "arm.sh"
+			}
+		},
+
+		"os": {
+			"arch": {
+				"run_common": false,
+				"scripts": "arch.sh"
+			},
+
+			"ubuntu": {
+				"run_common": false,
+				"scripts": "ubuntu.sh"
+			}
+		}
+	}
+}
