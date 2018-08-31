@@ -3,7 +3,7 @@
 	"scripts": {
 		"platform": {
 			"physical": {
-				"run_common": false,
+				"run_common": true,
 				"scripts": "physical.sh"
 			},
 
